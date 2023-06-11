@@ -12,10 +12,16 @@
     
     // console.log(clientWidth)
     if (clientWidth >= 750) {
-    
+
     docEl.style.fontSize = '16px';
-    // docEl.style.fontSize = 100 * (clientWidth / 1920) + 'px';
-    
+
+    // if(clientWidth<=1240){
+    //     docEl.style.fontSize = 100 * (1240 / 1920) + 'px';
+    // }else{
+    //     docEl.style.fontSize = 100 * (clientWidth / 1920) + 'px';
+    // }
+    // docEl.style.fontSize=16*(clientWidth / 1920) + 'px'
+  
     } else {
     docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
     
