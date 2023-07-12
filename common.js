@@ -6,15 +6,15 @@
     
     recalc = function() {
     
-    var clientWidth = docEl.clientWidth;
+    // var clientWidth = docEl.clientWidth;
+       
+    var clientWidth = window.innerWidth;
     
     if (!clientWidth) return;
     
     // console.log(clientWidth)
-    if (clientWidth >= 750) {
-
+    if (clientWidth > 1023) {
     docEl.style.fontSize = '16px';
-
     // if(clientWidth<=1240){
     //     docEl.style.fontSize = 100 * (1240 / 1920) + 'px';
     // }else{
@@ -23,8 +23,11 @@
     // docEl.style.fontSize=16*(clientWidth / 1920) + 'px'
   
     } else {
+      
     docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
-    
+    if(clientWidth > 750){
+        docEl.style.fontSize='100px'
+     }
     }
     
     };
