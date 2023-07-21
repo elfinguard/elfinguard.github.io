@@ -4455,14 +4455,15 @@ a.wy-text-neutral:hover {
 .rst-content .toctree-wrapper>p.caption,h1,h2,h3,h4,h5,h6,legend {
     margin-top: 0;
     font-weight: 700;
-    line-height: 0.3rem !important;
+    line-height: 0.4rem;
     /* font-family: Roboto Slab,ff-tisa-web-pro,Georgia,Arial,sans-serif */
 }
 
 p {
-    line-height: 0.4rem;
-    font-size: 0.24rem;
-    margin: 0 0 0.24rem
+    line-height: 0.48rem;
+    font-size: 0.32rem;
+    margin: 0 0 0.24rem;
+    word-break: break-all;
 }
 
 h1 {
@@ -4549,7 +4550,7 @@ hr {
 .rst-content .section ol.arabic li,.rst-content .section ol li,.rst-content .toctree-wrapper ol.arabic li,.rst-content .toctree-wrapper ol li,.rst-content section ol.arabic li,.rst-content section ol li,.wy-plain-list-decimal li,article ol li {
     list-style: decimal;
     margin-left: 0.24rem;
-    line-height: 0.3rem;
+    line-height: 0.4rem;
 }
 
 .rst-content .section ol.arabic li ul,.rst-content .section ol li p:last-child,.rst-content .section ol li ul,.rst-content .toctree-wrapper ol.arabic li ul,.rst-content .toctree-wrapper ol li p:last-child,.rst-content .toctree-wrapper ol li ul,.rst-content section ol.arabic li ul,.rst-content section ol li p:last-child,.rst-content section ol li ul,.wy-plain-list-decimal li p:last-child,.wy-plain-list-decimal li ul,article ol li p:last-child,article ol li ul {
